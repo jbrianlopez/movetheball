@@ -1,0 +1,87 @@
+/* .arrow {
+  height: 50px;
+	width: 50px;
+	background: (255);
+} */
+
+nav {
+position:fixed;
+top: 50%;
+left: 50%;
+/* margin-top: -9em;
+    margin-left: -15em; */
+}
+.left {
+  position: absolute;
+  left: 0px;
+  top: 50%
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  top: 50%
+}
+
+.top {
+  position: absolute;
+  top: 0px;
+  left: 50%
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 50%
+}
+
+ball {
+	display:inline-block;
+  height: 50px;
+	width: 50px;
+  background: #008A10;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* #top-left {
+  position: absolute; */
+/*   top: 0px; */
+
+}
+
+.top-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#bottom-left {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+
+nav {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.red  {
+  background: red;
+}
+
+.green  {
+  background: green;
+}
+
+.blue  {
+  background: blue;
+}
